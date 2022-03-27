@@ -1,0 +1,15 @@
+{
+  "name": "strugatsky",
+  "version": "1.2.6",
+  "description": "Happiness for everybody, free, and let no one go unsatisfied",
+  "homepage": "https://nickelp.ro/posts/cpp-proj-layout/",
+  "maintainers": [
+    "Vito Gamberini <vito@gamberini.email>"
+  ],
+  "supports": "!uwp",
+  "license": "Zlib",
+  "dependencies": [
+    "fmt",
+    "ztd-text"
+  ]
+}
