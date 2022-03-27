@@ -46,7 +46,7 @@ jobs:
           submodules: recursive
 
       - name: Configure
-        run: cmake .
+        run: cmake . -DCMAKE_CXX_COMPILER=g++-11
 
       - name: Build
         run: cmake --build . --config Release

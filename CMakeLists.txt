@@ -13,6 +13,6 @@ add_executable(strugatsky)
 target_compile_features(strugatsky PRIVATE cxx_std_20)
 target_compile_options(strugatsky PRIVATE -Wall -Wextra -Wpedantic -Werror)
 target_include_directories(strugatsky PRIVATE ${ztd_include})
-target_link_libraries(strugatsky PRIVATE fmt::fmt)
+target_link_libraries(strugatsky PRIVATE fmt::fmt-header-only)
 
 add_subdirectory(src)

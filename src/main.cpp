@@ -1,3 +1,5 @@
+#include <string_view>
+
 #include <fmt/format.h>
 #include <ztd/text.hpp>
 
